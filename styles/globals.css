@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8fafc;
+  color: #1e293b;
+}
+
+.container {
+  max-width: 1200px;
+}
+
+/* Animation pour les chargements */
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+
+.animate-pulse {
+  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+/* Styles pour les cartes de satellite */
+.satellite-card {
+  transition: all 0.3s ease;
+  border-left: 4px solid transparent;
+}
+
+.satellite-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+  border-left-color: #3b82f6;
+}
+
+/* Styles pour les tables */
+.data-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+.data-table th {
+  position: sticky;
+  top: 0;
+  background-color: #f1f5f9;
+  z-index: 10;
+}
+
+.data-table tr:nth-child(even) {
+  background-color: #f8fafc;
+}
+
+.data-table tr:hover {
+  background-color: #f1f5f9;
+}
+
+/* Boutons */
+.btn-primary {
+  background-color: #3b82f6;
+  color: white;
+  transition: all 0.2s;
+}
+
+.btn-primary:hover {
+  background-color: #2563eb;
+  transform: translateY(-1px);
+}
