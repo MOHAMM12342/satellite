@@ -1,0 +1,645 @@
+INFO 2025-07-27 13:33:00,550 views All confirmed TOTP devices for mohamed_baddi: [<TOTPDevice: baddi (mohamed_baddi)>]
+INFO 2025-07-27 13:33:00,551 views Default 2FA device for mohamed_baddi: baddi (mohamed_baddi)
+INFO 2025-07-27 13:33:00,552 views 2FA required for mohamed_baddi, device: baddi, ID: 6
+INFO 2025-07-27 13:38:09,703 views All confirmed TOTP devices for mohamed_baddi: [<TOTPDevice: baddi (mohamed_baddi)>]
+INFO 2025-07-27 13:38:09,705 views Default 2FA device for mohamed_baddi: baddi (mohamed_baddi)
+INFO 2025-07-27 13:38:09,706 views 2FA required for mohamed_baddi, device: baddi, ID: 6
+INFO 2025-07-27 13:52:32,333 views All confirmed TOTP devices for mohamed_baddi: [<TOTPDevice: baddi (mohamed_baddi)>]
+INFO 2025-07-27 13:52:32,336 views Default 2FA device for mohamed_baddi: baddi (mohamed_baddi)
+INFO 2025-07-27 13:52:32,337 views 2FA required for mohamed_baddi, device: baddi, ID: 6
+DEBUG 2025-07-27 14:24:46,894 middleware Check IDLE_TIME: 60.0s until idle ends.
+DEBUG 2025-07-27 14:24:47,109 middleware Check IDLE_TIME: 59.785106s until idle ends.
+DEBUG 2025-07-27 14:24:47,297 middleware Check IDLE_TIME: 59.811744s until idle ends.
+DEBUG 2025-07-27 14:24:47,347 middleware Check IDLE_TIME: 59.949314s until idle ends.
+DEBUG 2025-07-27 14:24:47,520 middleware Check IDLE_TIME: 59.827716s until idle ends.
+DEBUG 2025-07-27 14:24:47,661 middleware Check IDLE_TIME: 59.858727s until idle ends.
+DEBUG 2025-07-27 14:24:47,798 middleware Check IDLE_TIME: 59.863221s until idle ends.
+DEBUG 2025-07-27 14:25:17,329 middleware Check IDLE_TIME: 30.468353s until idle ends.
+DEBUG 2025-07-27 14:25:47,329 middleware Check IDLE_TIME: 30.000267s until idle ends.
+DEBUG 2025-07-27 14:26:18,163 middleware Check IDLE_TIME: 29.166083s until idle ends.
+DEBUG 2025-07-27 14:26:48,184 middleware Check IDLE_TIME: 29.978836s until idle ends.
+DEBUG 2025-07-27 14:27:18,193 middleware Check IDLE_TIME: 29.990971s until idle ends.
+DEBUG 2025-07-27 14:27:48,201 middleware Check IDLE_TIME: 29.99248s until idle ends.
+DEBUG 2025-07-27 14:28:18,164 middleware Check IDLE_TIME: 30.036331s until idle ends.
+DEBUG 2025-07-27 14:33:07,596 middleware Check IDLE_TIME: 60.0s until idle ends.
+DEBUG 2025-07-27 14:33:07,825 middleware Check IDLE_TIME: 59.770395s until idle ends.
+DEBUG 2025-07-27 14:33:08,019 middleware Check IDLE_TIME: 59.806385s until idle ends.
+DEBUG 2025-07-27 14:33:08,068 middleware Check IDLE_TIME: 59.951139s until idle ends.
+DEBUG 2025-07-27 14:33:08,251 middleware Check IDLE_TIME: 59.816821s until idle ends.
+DEBUG 2025-07-27 14:33:08,299 middleware Check IDLE_TIME: 59.952133s until idle ends.
+DEBUG 2025-07-27 14:33:08,424 middleware Check IDLE_TIME: 59.874889s until idle ends.
+DEBUG 2025-07-27 14:33:12,335 middleware Check IDLE_TIME: 56.088684s until idle ends.
+DEBUG 2025-07-27 14:33:14,208 middleware Check IDLE_TIME: 58.127031s until idle ends.
+DEBUG 2025-07-27 14:33:17,247 middleware Check IDLE_TIME: 56.961303s until idle ends.
+DEBUG 2025-07-27 14:33:18,923 middleware Check IDLE_TIME: 58.324227s until idle ends.
+DEBUG 2025-07-27 14:33:20,509 middleware Check IDLE_TIME: 58.414293s until idle ends.
+DEBUG 2025-07-27 14:33:21,156 middleware Check IDLE_TIME: 59.352608s until idle ends.
+DEBUG 2025-07-27 14:33:38,156 middleware Check IDLE_TIME: 42.999489s until idle ends.
+DEBUG 2025-07-27 14:34:08,157 middleware Check IDLE_TIME: 29.999558s until idle ends.
+DEBUG 2025-07-27 14:34:38,167 middleware Check IDLE_TIME: 29.990326s until idle ends.
+DEBUG 2025-07-27 14:35:08,170 middleware Check IDLE_TIME: 29.996643s until idle ends.
+DEBUG 2025-07-27 14:35:38,156 middleware Check IDLE_TIME: 30.014044s until idle ends.
+DEBUG 2025-07-27 14:36:08,493 middleware Check IDLE_TIME: 29.662709s until idle ends.
+DEBUG 2025-07-27 14:36:38,148 middleware Check IDLE_TIME: 30.345014s until idle ends.
+DEBUG 2025-07-27 14:37:08,173 middleware Check IDLE_TIME: 29.975082s until idle ends.
+DEBUG 2025-07-27 14:42:46,543 middleware Check IDLE_TIME: 60.0s until idle ends.
+DEBUG 2025-07-27 14:42:46,758 middleware Check IDLE_TIME: 59.78555s until idle ends.
+DEBUG 2025-07-27 14:42:46,966 middleware Check IDLE_TIME: 59.791882s until idle ends.
+DEBUG 2025-07-27 14:42:47,009 middleware Check IDLE_TIME: 59.957214s until idle ends.
+DEBUG 2025-07-27 14:42:47,301 middleware Check IDLE_TIME: 59.708208s until idle ends.
+DEBUG 2025-07-27 14:42:47,352 middleware Check IDLE_TIME: 59.94842s until idle ends.
+DEBUG 2025-07-27 14:42:47,492 middleware Check IDLE_TIME: 59.860078s until idle ends.
+DEBUG 2025-07-27 14:43:17,465 middleware Check IDLE_TIME: 30.027462s until idle ends.
+DEBUG 2025-07-27 14:43:47,172 middleware Check IDLE_TIME: 30.292224s until idle ends.
+DEBUG 2025-07-27 14:44:17,151 middleware Check IDLE_TIME: 30.021204s until idle ends.
+DEBUG 2025-07-27 14:44:47,156 middleware Check IDLE_TIME: 29.995529s until idle ends.
+DEBUG 2025-07-27 14:45:17,164 middleware Check IDLE_TIME: 29.991227s until idle ends.
+DEBUG 2025-07-27 14:45:47,164 middleware Check IDLE_TIME: 30.000553s until idle ends.
+DEBUG 2025-07-27 14:46:17,159 middleware Check IDLE_TIME: 30.00465s until idle ends.
+DEBUG 2025-07-27 14:52:49,543 middleware Check IDLE_TIME: 60.0s until idle ends.
+DEBUG 2025-07-27 14:52:49,746 middleware Check IDLE_TIME: 59.79645s until idle ends.
+DEBUG 2025-07-27 14:52:49,932 middleware Check IDLE_TIME: 59.814597s until idle ends.
+DEBUG 2025-07-27 14:52:49,979 middleware Check IDLE_TIME: 59.95321s until idle ends.
+DEBUG 2025-07-27 14:52:50,126 middleware Check IDLE_TIME: 59.852239s until idle ends.
+DEBUG 2025-07-27 14:52:50,174 middleware Check IDLE_TIME: 59.952784s until idle ends.
+DEBUG 2025-07-27 14:52:50,311 middleware Check IDLE_TIME: 59.862155s until idle ends.
+DEBUG 2025-07-27 14:53:20,188 middleware Check IDLE_TIME: 30.124121s until idle ends.
+DEBUG 2025-07-27 14:53:50,139 middleware Check IDLE_TIME: 30.04836s until idle ends.
+DEBUG 2025-07-27 14:54:20,184 middleware Check IDLE_TIME: 29.955104s until idle ends.
+DEBUG 2025-07-27 14:54:50,145 middleware Check IDLE_TIME: 30.038765s until idle ends.
+DEBUG 2025-07-27 14:55:20,176 middleware Check IDLE_TIME: 29.968716s until idle ends.
+DEBUG 2025-07-27 14:55:50,159 middleware Check IDLE_TIME: 30.017605s until idle ends.
+DEBUG 2025-07-27 14:56:20,183 middleware Check IDLE_TIME: 29.976169s until idle ends.
+DEBUG 2025-07-27 14:57:20,191 middleware Check IDLE_TIME: -0.008124s until idle ends.
+DEBUG 2025-07-27 14:57:20,192 middleware Logout user mohamed_baddi
+INFO 2025-07-27 15:06:09,196 autoreload Watching for file changes with StatReloader
+INFO 2025-07-27 15:06:32,536 autoreload Watching for file changes with StatReloader
+INFO 2025-07-27 15:06:52,820 views All confirmed TOTP devices for mohamed_baddi: [<TOTPDevice: baddi (mohamed_baddi)>]
+INFO 2025-07-27 15:06:52,822 views Default 2FA device for mohamed_baddi: baddi (mohamed_baddi)
+INFO 2025-07-27 15:06:52,823 views 2FA required for mohamed_baddi, device: baddi, ID: 6
+DEBUG 2025-07-27 15:07:08,229 middleware Check IDLE_TIME: 60.0s until idle ends.
+DEBUG 2025-07-27 15:07:08,229 middleware Check IDLE_TIME: 60.0s until idle ends.
+INFO 2025-07-27 15:07:08,236 views Session created for user mohamed_baddi, sessionid: z4arrtdu6cpb923n0wyq0qaog04jfuw6
+DEBUG 2025-07-27 15:07:08,464 middleware Check IDLE_TIME: 59.764598s until idle ends.
+DEBUG 2025-07-27 15:07:08,464 middleware Check IDLE_TIME: 59.764598s until idle ends.
+DEBUG 2025-07-27 15:07:08,513 middleware Check IDLE_TIME: 59.7156s until idle ends.
+DEBUG 2025-07-27 15:07:08,513 middleware Check IDLE_TIME: 59.7156s until idle ends.
+DEBUG 2025-07-27 15:07:08,723 middleware Check IDLE_TIME: 59.790003s until idle ends.
+DEBUG 2025-07-27 15:07:08,723 middleware Check IDLE_TIME: 59.790003s until idle ends.
+DEBUG 2025-07-27 15:07:08,767 middleware Check IDLE_TIME: 59.956073s until idle ends.
+DEBUG 2025-07-27 15:07:08,767 middleware Check IDLE_TIME: 59.956073s until idle ends.
+DEBUG 2025-07-27 15:07:12,011 middleware Check IDLE_TIME: 56.756618s until idle ends.
+DEBUG 2025-07-27 15:07:12,011 middleware Check IDLE_TIME: 56.756618s until idle ends.
+DEBUG 2025-07-27 15:07:13,775 middleware Check IDLE_TIME: 58.235126s until idle ends.
+DEBUG 2025-07-27 15:07:13,775 middleware Check IDLE_TIME: 58.235126s until idle ends.
+DEBUG 2025-07-27 15:07:16,745 middleware Check IDLE_TIME: 57.030493s until idle ends.
+DEBUG 2025-07-27 15:07:16,745 middleware Check IDLE_TIME: 57.030493s until idle ends.
+DEBUG 2025-07-27 15:07:18,443 middleware Check IDLE_TIME: 58.302134s until idle ends.
+DEBUG 2025-07-27 15:07:18,443 middleware Check IDLE_TIME: 58.302134s until idle ends.
+DEBUG 2025-07-27 15:07:39,168 middleware Check IDLE_TIME: 39.274525s until idle ends.
+DEBUG 2025-07-27 15:07:39,168 middleware Check IDLE_TIME: 39.274525s until idle ends.
+INFO 2025-07-27 15:07:39,169 views Session pinged for user mohamed_baddi, sessionid: z4arrtdu6cpb923n0wyq0qaog04jfuw6, last_activity: 2025-07-27T14:07:39.169810+00:00
+DEBUG 2025-07-27 15:08:09,159 middleware Check IDLE_TIME: 30.009411s until idle ends.
+DEBUG 2025-07-27 15:08:09,159 middleware Check IDLE_TIME: 30.009411s until idle ends.
+INFO 2025-07-27 15:08:09,160 views Session pinged for user mohamed_baddi, sessionid: z4arrtdu6cpb923n0wyq0qaog04jfuw6, last_activity: 2025-07-27T14:08:09.160392+00:00
+DEBUG 2025-07-27 15:08:39,173 middleware Check IDLE_TIME: 29.986007s until idle ends.
+DEBUG 2025-07-27 15:08:39,173 middleware Check IDLE_TIME: 29.986007s until idle ends.
+INFO 2025-07-27 15:08:39,174 views Session pinged for user mohamed_baddi, sessionid: z4arrtdu6cpb923n0wyq0qaog04jfuw6, last_activity: 2025-07-27T14:08:39.174403+00:00
+DEBUG 2025-07-27 15:09:09,171 middleware Check IDLE_TIME: 30.001451s until idle ends.
+DEBUG 2025-07-27 15:09:09,171 middleware Check IDLE_TIME: 30.001451s until idle ends.
+INFO 2025-07-27 15:09:09,171 views Session pinged for user mohamed_baddi, sessionid: z4arrtdu6cpb923n0wyq0qaog04jfuw6, last_activity: 2025-07-27T14:09:09.171941+00:00
+DEBUG 2025-07-27 15:09:39,201 middleware Check IDLE_TIME: 29.970694s until idle ends.
+DEBUG 2025-07-27 15:09:39,201 middleware Check IDLE_TIME: 29.970694s until idle ends.
+INFO 2025-07-27 15:09:39,202 views Session pinged for user mohamed_baddi, sessionid: z4arrtdu6cpb923n0wyq0qaog04jfuw6, last_activity: 2025-07-27T14:09:39.202309+00:00
+DEBUG 2025-07-27 15:10:09,195 middleware Check IDLE_TIME: 30.006235s until idle ends.
+DEBUG 2025-07-27 15:10:09,195 middleware Check IDLE_TIME: 30.006235s until idle ends.
+INFO 2025-07-27 15:10:09,196 views Session pinged for user mohamed_baddi, sessionid: z4arrtdu6cpb923n0wyq0qaog04jfuw6, last_activity: 2025-07-27T14:10:09.196013+00:00
+DEBUG 2025-07-27 15:10:39,527 middleware Check IDLE_TIME: 29.667482s until idle ends.
+DEBUG 2025-07-27 15:10:39,527 middleware Check IDLE_TIME: 29.667482s until idle ends.
+INFO 2025-07-27 15:10:39,528 views Session pinged for user mohamed_baddi, sessionid: z4arrtdu6cpb923n0wyq0qaog04jfuw6, last_activity: 2025-07-27T14:10:39.528545+00:00
+DEBUG 2025-07-27 15:11:20,504 middleware Check IDLE_TIME: 19.023932s until idle ends.
+DEBUG 2025-07-27 15:11:20,504 middleware Check IDLE_TIME: 19.023932s until idle ends.
+INFO 2025-07-27 15:11:20,505 views Session pinged for user mohamed_baddi, sessionid: z4arrtdu6cpb923n0wyq0qaog04jfuw6, last_activity: 2025-07-27T14:11:20.505597+00:00
+DEBUG 2025-07-27 15:12:20,307 middleware Check IDLE_TIME: 0.197572s until idle ends.
+DEBUG 2025-07-27 15:12:20,307 middleware Check IDLE_TIME: 0.197572s until idle ends.
+INFO 2025-07-27 15:12:20,308 views Session pinged for user mohamed_baddi, sessionid: z4arrtdu6cpb923n0wyq0qaog04jfuw6, last_activity: 2025-07-27T14:12:20.307027+00:00
+DEBUG 2025-07-27 15:13:10,356 middleware Check IDLE_TIME: 9.949891s until idle ends.
+DEBUG 2025-07-27 15:13:10,356 middleware Check IDLE_TIME: 9.949891s until idle ends.
+INFO 2025-07-27 15:13:10,357 views Session pinged for user mohamed_baddi, sessionid: z4arrtdu6cpb923n0wyq0qaog04jfuw6, last_activity: 2025-07-27T14:13:10.357138+00:00
+DEBUG 2025-07-27 15:13:39,149 middleware Check IDLE_TIME: 31.206158s until idle ends.
+DEBUG 2025-07-27 15:13:39,149 middleware Check IDLE_TIME: 31.206158s until idle ends.
+INFO 2025-07-27 15:13:39,150 views Session pinged for user mohamed_baddi, sessionid: z4arrtdu6cpb923n0wyq0qaog04jfuw6, last_activity: 2025-07-27T14:13:39.150976+00:00
+DEBUG 2025-07-27 15:14:09,180 middleware Check IDLE_TIME: 29.969035s until idle ends.
+DEBUG 2025-07-27 15:14:09,180 middleware Check IDLE_TIME: 29.969035s until idle ends.
+INFO 2025-07-27 15:14:09,181 views Session pinged for user mohamed_baddi, sessionid: z4arrtdu6cpb923n0wyq0qaog04jfuw6, last_activity: 2025-07-27T14:14:09.181945+00:00
+DEBUG 2025-07-27 15:14:39,182 middleware Check IDLE_TIME: 29.9985s until idle ends.
+DEBUG 2025-07-27 15:14:39,182 middleware Check IDLE_TIME: 29.9985s until idle ends.
+INFO 2025-07-27 15:14:39,183 views Session pinged for user mohamed_baddi, sessionid: z4arrtdu6cpb923n0wyq0qaog04jfuw6, last_activity: 2025-07-27T14:14:39.183444+00:00
+DEBUG 2025-07-27 15:15:14,398 middleware Check IDLE_TIME: 24.783485s until idle ends.
+DEBUG 2025-07-27 15:15:14,398 middleware Check IDLE_TIME: 24.783485s until idle ends.
+INFO 2025-07-27 15:15:14,400 views Session pinged for user mohamed_baddi, sessionid: z4arrtdu6cpb923n0wyq0qaog04jfuw6, last_activity: 2025-07-27T14:15:14.400958+00:00
+DEBUG 2025-07-27 15:15:39,172 middleware Check IDLE_TIME: 35.225989s until idle ends.
+DEBUG 2025-07-27 15:15:39,172 middleware Check IDLE_TIME: 35.225989s until idle ends.
+INFO 2025-07-27 15:15:39,173 views Session pinged for user mohamed_baddi, sessionid: z4arrtdu6cpb923n0wyq0qaog04jfuw6, last_activity: 2025-07-27T14:15:39.173968+00:00
+DEBUG 2025-07-27 15:16:09,303 middleware Check IDLE_TIME: 29.86956s until idle ends.
+DEBUG 2025-07-27 15:16:09,303 middleware Check IDLE_TIME: 29.86956s until idle ends.
+INFO 2025-07-27 15:16:09,304 views Session pinged for user mohamed_baddi, sessionid: z4arrtdu6cpb923n0wyq0qaog04jfuw6, last_activity: 2025-07-27T14:16:09.304408+00:00
+DEBUG 2025-07-27 15:16:47,156 middleware Check IDLE_TIME: 22.147397s until idle ends.
+DEBUG 2025-07-27 15:16:47,156 middleware Check IDLE_TIME: 22.147397s until idle ends.
+DEBUG 2025-07-27 15:16:47,478 middleware Check IDLE_TIME: 59.677508s until idle ends.
+DEBUG 2025-07-27 15:16:47,478 middleware Check IDLE_TIME: 59.677508s until idle ends.
+INFO 2025-07-27 15:17:24,198 autoreload Watching for file changes with StatReloader
+INFO 2025-07-27 15:17:31,786 autoreload Watching for file changes with StatReloader
+DEBUG 2025-07-27 15:17:41,139 middleware Check IDLE_TIME: 6.338878s until idle ends.
+DEBUG 2025-07-27 15:17:41,139 middleware Check IDLE_TIME: 6.338878s until idle ends.
+INFO 2025-07-27 15:17:42,380 views All confirmed TOTP devices for mohamed_baddi: [<TOTPDevice: baddi (mohamed_baddi)>]
+INFO 2025-07-27 15:17:42,383 views Default 2FA device for mohamed_baddi: baddi (mohamed_baddi)
+INFO 2025-07-27 15:17:42,383 views 2FA required for mohamed_baddi, device: baddi, ID: 6
+DEBUG 2025-07-27 15:17:57,402 middleware Check IDLE_TIME: 43.736849s until idle ends.
+DEBUG 2025-07-27 15:17:57,402 middleware Check IDLE_TIME: 43.736849s until idle ends.
+INFO 2025-07-27 15:17:57,409 views Session created for user mohamed_baddi, sessionid: z4arrtdu6cpb923n0wyq0qaog04jfuw6
+DEBUG 2025-07-27 15:17:57,622 middleware Check IDLE_TIME: 59.780042s until idle ends.
+DEBUG 2025-07-27 15:17:57,622 middleware Check IDLE_TIME: 59.780042s until idle ends.
+DEBUG 2025-07-27 15:17:57,674 middleware Check IDLE_TIME: 59.947963s until idle ends.
+DEBUG 2025-07-27 15:17:57,674 middleware Check IDLE_TIME: 59.947963s until idle ends.
+DEBUG 2025-07-27 15:17:57,858 middleware Check IDLE_TIME: 59.816143s until idle ends.
+DEBUG 2025-07-27 15:17:57,858 middleware Check IDLE_TIME: 59.816143s until idle ends.
+DEBUG 2025-07-27 15:17:57,915 middleware Check IDLE_TIME: 59.94271s until idle ends.
+DEBUG 2025-07-27 15:17:57,915 middleware Check IDLE_TIME: 59.94271s until idle ends.
+DEBUG 2025-07-27 15:18:00,459 middleware Check IDLE_TIME: 57.456672s until idle ends.
+DEBUG 2025-07-27 15:18:00,459 middleware Check IDLE_TIME: 57.456672s until idle ends.
+DEBUG 2025-07-27 15:18:03,501 middleware Check IDLE_TIME: 56.957277s until idle ends.
+DEBUG 2025-07-27 15:18:03,501 middleware Check IDLE_TIME: 56.957277s until idle ends.
+WARNING 2025-07-27 15:24:16,002 log Not Found: /accounts/login/
+WARNING 2025-07-27 15:24:16,118 log Not Found: /accounts/login/
+INFO 2025-07-27 15:25:25,655 views All confirmed TOTP devices for mohamed_baddi: [<TOTPDevice: baddi (mohamed_baddi)>]
+INFO 2025-07-27 15:25:25,657 views Default 2FA device for mohamed_baddi: baddi (mohamed_baddi)
+INFO 2025-07-27 15:25:25,658 views 2FA required for mohamed_baddi, device: baddi, ID: 6
+DEBUG 2025-07-27 15:25:39,218 middleware Check IDLE_TIME: 60.0s until idle ends.
+DEBUG 2025-07-27 15:25:39,218 middleware Check IDLE_TIME: 60.0s until idle ends.
+INFO 2025-07-27 15:25:39,224 views Session created for user mohamed_baddi, sessionid: srpa991vp5fbvupjhrbjpzfgyl1l2tm9
+DEBUG 2025-07-27 15:25:39,404 middleware Check IDLE_TIME: 59.813665s until idle ends.
+DEBUG 2025-07-27 15:25:39,404 middleware Check IDLE_TIME: 59.813665s until idle ends.
+DEBUG 2025-07-27 15:25:39,449 middleware Check IDLE_TIME: 59.954595s until idle ends.
+DEBUG 2025-07-27 15:25:39,449 middleware Check IDLE_TIME: 59.954595s until idle ends.
+DEBUG 2025-07-27 15:25:39,574 middleware Check IDLE_TIME: 59.875494s until idle ends.
+DEBUG 2025-07-27 15:25:39,574 middleware Check IDLE_TIME: 59.875494s until idle ends.
+DEBUG 2025-07-27 15:25:39,615 middleware Check IDLE_TIME: 59.958835s until idle ends.
+DEBUG 2025-07-27 15:25:39,615 middleware Check IDLE_TIME: 59.958835s until idle ends.
+INFO 2025-07-27 15:27:25,334 autoreload C:\Users\moham\Downloads\api\authentification\views.py changed, reloading.
+INFO 2025-07-27 15:27:26,152 autoreload Watching for file changes with StatReloader
+INFO 2025-07-27 15:27:35,601 autoreload C:\Users\moham\Downloads\api\authentification\urls.py changed, reloading.
+INFO 2025-07-27 15:27:36,438 autoreload Watching for file changes with StatReloader
+INFO 2025-07-27 15:29:00,725 autoreload C:\Users\moham\Downloads\api\api\settings.py changed, reloading.
+INFO 2025-07-27 15:29:01,586 autoreload Watching for file changes with StatReloader
+INFO 2025-07-27 15:29:20,780 autoreload Watching for file changes with StatReloader
+INFO 2025-07-27 15:29:28,264 views All confirmed TOTP devices for mohamed_baddi: [<TOTPDevice: baddi (mohamed_baddi)>]
+INFO 2025-07-27 15:29:28,267 views Default 2FA device for mohamed_baddi: baddi (mohamed_baddi)
+INFO 2025-07-27 15:29:28,267 views 2FA required for mohamed_baddi, device: baddi, ID: 6
+DEBUG 2025-07-27 15:29:43,028 middleware Check IDLE_TIME: 60.0s until idle ends.
+DEBUG 2025-07-27 15:29:43,028 middleware Check IDLE_TIME: 60.0s until idle ends.
+INFO 2025-07-27 15:29:43,034 views Session created for user mohamed_baddi, sessionid: 23dy0asdry0qhpstv3gy1f5piymd4xch
+DEBUG 2025-07-27 15:29:43,227 middleware Check IDLE_TIME: 59.800828s until idle ends.
+DEBUG 2025-07-27 15:29:43,227 middleware Check IDLE_TIME: 59.800828s until idle ends.
+DEBUG 2025-07-27 15:29:43,289 middleware Check IDLE_TIME: 59.938083s until idle ends.
+DEBUG 2025-07-27 15:29:43,289 middleware Check IDLE_TIME: 59.938083s until idle ends.
+DEBUG 2025-07-27 15:29:43,446 middleware Check IDLE_TIME: 59.842521s until idle ends.
+DEBUG 2025-07-27 15:29:43,446 middleware Check IDLE_TIME: 59.842521s until idle ends.
+DEBUG 2025-07-27 15:29:43,496 middleware Check IDLE_TIME: 59.949914s until idle ends.
+DEBUG 2025-07-27 15:29:43,496 middleware Check IDLE_TIME: 59.949914s until idle ends.
+INFO 2025-07-27 15:36:05,448 autoreload C:\Users\moham\Downloads\api\authentification\views.py changed, reloading.
+INFO 2025-07-27 15:36:06,346 autoreload Watching for file changes with StatReloader
+INFO 2025-07-27 15:36:26,922 autoreload C:\Users\moham\Downloads\api\authentification\urls.py changed, reloading.
+INFO 2025-07-27 15:36:27,807 autoreload Watching for file changes with StatReloader
+INFO 2025-07-27 15:37:41,961 autoreload C:\Users\moham\Downloads\api\api\settings.py changed, reloading.
+INFO 2025-07-27 15:37:42,810 autoreload Watching for file changes with StatReloader
+INFO 2025-07-27 15:37:46,082 autoreload Watching for file changes with StatReloader
+INFO 2025-07-27 15:38:22,376 views All confirmed TOTP devices for mohamed_baddi: [<TOTPDevice: baddi (mohamed_baddi)>]
+INFO 2025-07-27 15:38:22,378 views Default 2FA device for mohamed_baddi: baddi (mohamed_baddi)
+INFO 2025-07-27 15:38:22,379 views 2FA required for mohamed_baddi, device: baddi, ID: 6
+DEBUG 2025-07-27 15:38:30,690 middleware Check IDLE_TIME: 60.0s until idle ends.
+DEBUG 2025-07-27 15:38:30,690 middleware Check IDLE_TIME: 60.0s until idle ends.
+WARNING 2025-07-27 15:38:30,703 log Bad Request: /auth/verify/
+DEBUG 2025-07-27 15:38:41,201 middleware Check IDLE_TIME: 49.488746s until idle ends.
+DEBUG 2025-07-27 15:38:41,201 middleware Check IDLE_TIME: 49.488746s until idle ends.
+INFO 2025-07-27 15:38:41,209 views Session created for user mohamed_baddi, sessionid: dk5xhmglh6izcvn0cfm38u0j28kz0l4z
+DEBUG 2025-07-27 15:38:41,426 middleware Check IDLE_TIME: 59.775019s until idle ends.
+DEBUG 2025-07-27 15:38:41,426 middleware Check IDLE_TIME: 59.775019s until idle ends.
+DEBUG 2025-07-27 15:38:41,478 middleware Check IDLE_TIME: 59.947926s until idle ends.
+DEBUG 2025-07-27 15:38:41,478 middleware Check IDLE_TIME: 59.947926s until idle ends.
+DEBUG 2025-07-27 15:38:41,678 middleware Check IDLE_TIME: 59.799977s until idle ends.
+DEBUG 2025-07-27 15:38:41,678 middleware Check IDLE_TIME: 59.799977s until idle ends.
+DEBUG 2025-07-27 15:38:41,730 middleware Check IDLE_TIME: 59.947904s until idle ends.
+DEBUG 2025-07-27 15:38:41,730 middleware Check IDLE_TIME: 59.947904s until idle ends.
+DEBUG 2025-07-27 15:38:50,758 middleware Check IDLE_TIME: 50.972765s until idle ends.
+DEBUG 2025-07-27 15:38:50,758 middleware Check IDLE_TIME: 50.972765s until idle ends.
+DEBUG 2025-07-27 15:38:53,848 middleware Check IDLE_TIME: 56.909293s until idle ends.
+DEBUG 2025-07-27 15:38:53,848 middleware Check IDLE_TIME: 56.909293s until idle ends.
+DEBUG 2025-07-27 15:38:57,318 middleware Check IDLE_TIME: 56.529889s until idle ends.
+DEBUG 2025-07-27 15:38:57,318 middleware Check IDLE_TIME: 56.529889s until idle ends.
+DEBUG 2025-07-27 15:38:59,762 middleware Check IDLE_TIME: 57.556649s until idle ends.
+DEBUG 2025-07-27 15:38:59,762 middleware Check IDLE_TIME: 57.556649s until idle ends.
+DEBUG 2025-07-27 15:39:01,327 middleware Check IDLE_TIME: 58.435096s until idle ends.
+DEBUG 2025-07-27 15:39:01,327 middleware Check IDLE_TIME: 58.435096s until idle ends.
+DEBUG 2025-07-27 15:40:01,353 middleware Check IDLE_TIME: -0.026214s until idle ends.
+DEBUG 2025-07-27 15:40:01,353 middleware Check IDLE_TIME: -0.026214s until idle ends.
+DEBUG 2025-07-27 15:40:01,354 middleware Logout user mohamed_baddi
+DEBUG 2025-07-27 15:40:01,354 middleware Logout user mohamed_baddi
+WARNING 2025-07-27 15:55:20,644 log Not Found: /accounts/login/
+INFO 2025-07-27 15:56:01,816 autoreload C:\Users\moham\Downloads\api\authentification\views.py changed, reloading.
+INFO 2025-07-27 15:56:02,648 autoreload Watching for file changes with StatReloader
+INFO 2025-07-27 15:56:09,324 autoreload C:\Users\moham\Downloads\api\authentification\views.py changed, reloading.
+INFO 2025-07-27 15:56:10,133 autoreload Watching for file changes with StatReloader
+INFO 2025-07-27 15:56:48,816 views All confirmed TOTP devices for mohamed_baddi: [<TOTPDevice: baddi (mohamed_baddi)>]
+INFO 2025-07-27 15:56:48,818 views Default 2FA device for mohamed_baddi: baddi (mohamed_baddi)
+INFO 2025-07-27 15:56:48,818 views 2FA required for mohamed_baddi, device: baddi, ID: 6
+DEBUG 2025-07-27 15:57:08,982 middleware Check IDLE_TIME: 60.0s until idle ends.
+DEBUG 2025-07-27 15:57:08,982 middleware Check IDLE_TIME: 60.0s until idle ends.
+INFO 2025-07-27 15:57:08,991 views Session created for user mohamed_baddi, sessionid: vnl07l0l676ir2c3dcm4yzj1t8as07t2
+DEBUG 2025-07-27 15:57:09,192 middleware Check IDLE_TIME: 59.790579s until idle ends.
+DEBUG 2025-07-27 15:57:09,192 middleware Check IDLE_TIME: 59.790579s until idle ends.
+DEBUG 2025-07-27 15:57:09,236 middleware Check IDLE_TIME: 59.955652s until idle ends.
+DEBUG 2025-07-27 15:57:09,236 middleware Check IDLE_TIME: 59.955652s until idle ends.
+DEBUG 2025-07-27 15:57:09,378 middleware Check IDLE_TIME: 59.857916s until idle ends.
+DEBUG 2025-07-27 15:57:09,378 middleware Check IDLE_TIME: 59.857916s until idle ends.
+DEBUG 2025-07-27 15:57:09,424 middleware Check IDLE_TIME: 59.954352s until idle ends.
+DEBUG 2025-07-27 15:57:09,424 middleware Check IDLE_TIME: 59.954352s until idle ends.
+INFO 2025-07-27 15:57:58,477 autoreload C:\Users\moham\Downloads\api\authentification\views.py changed, reloading.
+INFO 2025-07-27 15:57:59,287 autoreload Watching for file changes with StatReloader
+INFO 2025-07-27 15:58:09,245 autoreload C:\Users\moham\Downloads\api\authentification\views.py changed, reloading.
+INFO 2025-07-27 15:58:10,006 autoreload Watching for file changes with StatReloader
+INFO 2025-07-27 15:58:29,601 autoreload C:\Users\moham\Downloads\api\authentification\urls.py changed, reloading.
+INFO 2025-07-27 15:58:30,396 autoreload Watching for file changes with StatReloader
+INFO 2025-07-27 15:58:37,010 autoreload C:\Users\moham\Downloads\api\authentification\urls.py changed, reloading.
+INFO 2025-07-27 15:58:37,782 autoreload Watching for file changes with StatReloader
+INFO 2025-07-27 15:58:46,111 autoreload C:\Users\moham\Downloads\api\api\settings.py changed, reloading.
+INFO 2025-07-27 16:03:52,073 views All confirmed TOTP devices for mohamed_baddi: [<TOTPDevice: baddi (mohamed_baddi)>]
+INFO 2025-07-27 16:03:52,075 views Default 2FA device for mohamed_baddi: baddi (mohamed_baddi)
+INFO 2025-07-27 16:03:52,075 views 2FA required for mohamed_baddi, device: baddi, ID: 6
+INFO 2025-07-27 16:04:32,382 views All confirmed TOTP devices for mohamed_baddi: [<TOTPDevice: baddi (mohamed_baddi)>]
+INFO 2025-07-27 16:04:32,384 views Default 2FA device for mohamed_baddi: baddi (mohamed_baddi)
+INFO 2025-07-27 16:04:32,384 views 2FA required for mohamed_baddi, device: baddi, ID: 6
+INFO 2025-07-27 16:08:22,521 views All confirmed TOTP devices for mohamed_baddi: [<TOTPDevice: baddi (mohamed_baddi)>]
+INFO 2025-07-27 16:08:22,524 views Default 2FA device for mohamed_baddi: baddi (mohamed_baddi)
+INFO 2025-07-27 16:08:22,525 views 2FA required for mohamed_baddi, device: baddi, ID: 6
+DEBUG 2025-07-27 16:08:27,389 middleware Check IDLE_TIME: 60.0s until idle ends.
+INFO 2025-07-27 16:08:28,117 views All confirmed TOTP devices for mohamed_baddi: [<TOTPDevice: baddi (mohamed_baddi)>]
+INFO 2025-07-27 16:08:28,120 views Default 2FA device for mohamed_baddi: baddi (mohamed_baddi)
+INFO 2025-07-27 16:08:28,120 views 2FA required for mohamed_baddi, device: baddi, ID: 6
+INFO 2025-07-27 16:12:24,126 views All confirmed TOTP devices for mohamed_baddi: [<TOTPDevice: baddi (mohamed_baddi)>]
+INFO 2025-07-27 16:12:24,128 views Default 2FA device for mohamed_baddi: baddi (mohamed_baddi)
+INFO 2025-07-27 16:12:24,128 views 2FA required for mohamed_baddi, device: baddi, ID: 6
+INFO 2025-07-27 16:14:53,303 autoreload Watching for file changes with StatReloader
+INFO 2025-07-27 16:15:28,653 views All confirmed TOTP devices for mohamed_baddi: [<TOTPDevice: baddi (mohamed_baddi)>]
+INFO 2025-07-27 16:15:28,654 views Default 2FA device for mohamed_baddi: baddi (mohamed_baddi)
+INFO 2025-07-27 16:15:28,655 views 2FA required for mohamed_baddi, device: baddi, ID: 6
+DEBUG 2025-07-27 16:15:44,404 middleware Check IDLE_TIME: 60.0s until idle ends.
+DEBUG 2025-07-27 16:15:44,404 middleware Check IDLE_TIME: 60.0s until idle ends.
+WARNING 2025-07-27 16:15:44,409 log Unauthorized: /auth/verify/
+DEBUG 2025-07-27 16:15:53,603 middleware Check IDLE_TIME: 50.800502s until idle ends.
+DEBUG 2025-07-27 16:15:53,603 middleware Check IDLE_TIME: 50.800502s until idle ends.
+WARNING 2025-07-27 16:15:53,605 log Method Not Allowed: /auth/login/
+DEBUG 2025-07-27 16:15:55,696 middleware Check IDLE_TIME: 57.906876s until idle ends.
+DEBUG 2025-07-27 16:15:55,696 middleware Check IDLE_TIME: 57.906876s until idle ends.
+WARNING 2025-07-27 16:15:55,700 log Method Not Allowed: /auth/login/
+DEBUG 2025-07-27 16:15:56,661 middleware Check IDLE_TIME: 59.035653s until idle ends.
+DEBUG 2025-07-27 16:15:56,661 middleware Check IDLE_TIME: 59.035653s until idle ends.
+WARNING 2025-07-27 16:15:56,664 log Method Not Allowed: /auth/login/
+DEBUG 2025-07-27 16:16:10,224 middleware Check IDLE_TIME: 46.436286s until idle ends.
+DEBUG 2025-07-27 16:16:10,224 middleware Check IDLE_TIME: 46.436286s until idle ends.
+WARNING 2025-07-27 16:16:10,267 log Method Not Allowed: /auth/login/
+DEBUG 2025-07-27 16:16:34,651 middleware Check IDLE_TIME: 35.573302s until idle ends.
+DEBUG 2025-07-27 16:16:34,651 middleware Check IDLE_TIME: 35.573302s until idle ends.
+WARNING 2025-07-27 16:16:34,660 log Method Not Allowed: /auth/login/
+WARNING 2025-07-27 16:35:11,293 log Method Not Allowed: /auth/login/
+WARNING 2025-07-27 16:35:12,056 log Method Not Allowed: /auth/login/
+WARNING 2025-07-27 16:35:15,747 log Method Not Allowed: /auth/login/
+WARNING 2025-07-27 16:35:16,086 log Method Not Allowed: /auth/login/
+WARNING 2025-07-27 16:35:20,806 log Method Not Allowed: /auth/login/
+INFO 2025-07-27 16:36:08,761 autoreload C:\Users\moham\Downloads\api\api\settings.py changed, reloading.
+INFO 2025-07-27 16:39:04,335 views All confirmed TOTP devices for mohamed_baddi: [<TOTPDevice: baddi (mohamed_baddi)>]
+INFO 2025-07-27 16:39:04,339 views Default 2FA device for mohamed_baddi: baddi (mohamed_baddi)
+INFO 2025-07-27 16:39:04,339 views 2FA required for mohamed_baddi, device: baddi, ID: 6
+DEBUG 2025-07-27 16:39:21,555 middleware Check IDLE_TIME: 60.0s until idle ends.
+INFO 2025-07-27 16:39:21,561 views Session created for user mohamed_baddi, sessionid: dw0k2h6zvqzrsnkuy5p7x97l3c3ks3a0
+DEBUG 2025-07-27 16:39:21,784 middleware Check IDLE_TIME: 59.771073s until idle ends.
+DEBUG 2025-07-27 16:39:21,980 middleware Check IDLE_TIME: 59.803613s until idle ends.
+DEBUG 2025-07-27 16:39:22,114 middleware Check IDLE_TIME: 59.866561s until idle ends.
+DEBUG 2025-07-27 16:39:22,253 middleware Check IDLE_TIME: 59.860636s until idle ends.
+DEBUG 2025-07-27 16:39:26,049 middleware Check IDLE_TIME: 56.203704s until idle ends.
+INFO 2025-07-27 16:42:24,755 views All confirmed TOTP devices for mohamed_baddi: [<TOTPDevice: baddi (mohamed_baddi)>]
+INFO 2025-07-27 16:42:24,758 views Default 2FA device for mohamed_baddi: baddi (mohamed_baddi)
+INFO 2025-07-27 16:42:24,758 views 2FA required for mohamed_baddi, device: baddi, ID: 6
+INFO 2025-07-27 16:42:36,572 views Session created for user mohamed_baddi, sessionid: 2c8q8t557fel5f0vnw8yeson8gnrukhu
+DEBUG 2025-07-27 16:42:36,843 middleware Check IDLE_TIME: 60.0s until idle ends.
+DEBUG 2025-07-27 16:42:36,909 middleware Check IDLE_TIME: 59.934396s until idle ends.
+DEBUG 2025-07-27 16:42:37,117 middleware Check IDLE_TIME: 59.791634s until idle ends.
+DEBUG 2025-07-27 16:42:37,176 middleware Check IDLE_TIME: 59.941119s until idle ends.
+INFO 2025-07-27 16:46:06,132 views All confirmed TOTP devices for mohamed_baddi: [<TOTPDevice: baddi (mohamed_baddi)>]
+INFO 2025-07-27 16:46:06,135 views Default 2FA device for mohamed_baddi: baddi (mohamed_baddi)
+INFO 2025-07-27 16:46:06,135 views 2FA required for mohamed_baddi, device: baddi, ID: 6
+DEBUG 2025-07-27 16:46:12,676 middleware Check IDLE_TIME: 1.0s until idle ends.
+INFO 2025-07-27 16:46:12,683 views Session created for user mohamed_baddi, sessionid: puuinblnwy6qv1ulv85b24rzlnpbi56i
+DEBUG 2025-07-27 16:46:12,958 middleware Check IDLE_TIME: 0.718338s until idle ends.
+DEBUG 2025-07-27 16:46:13,025 middleware Check IDLE_TIME: 0.932686s until idle ends.
+DEBUG 2025-07-27 16:46:13,172 middleware Check IDLE_TIME: 0.852642s until idle ends.
+DEBUG 2025-07-27 16:46:13,308 middleware Check IDLE_TIME: 0.863801s until idle ends.
+INFO 2025-07-27 17:03:30,543 views All confirmed TOTP devices for mohamed_baddi: [<TOTPDevice: baddi (mohamed_baddi)>]
+INFO 2025-07-27 17:03:30,545 views Default 2FA device for mohamed_baddi: baddi (mohamed_baddi)
+INFO 2025-07-27 17:03:30,546 views 2FA required for mohamed_baddi, device: baddi, ID: 6
+DEBUG 2025-07-27 17:03:38,420 middleware Check IDLE_TIME: 10.0s until idle ends.
+INFO 2025-07-27 17:03:38,429 views Session created for user mohamed_baddi, sessionid: jzpcw9g9511azwcmnw4hd1t2k6lyzsfa
+DEBUG 2025-07-27 17:03:38,722 middleware Check IDLE_TIME: 9.697942s until idle ends.
+DEBUG 2025-07-27 17:03:38,780 middleware Check IDLE_TIME: 9.941617s until idle ends.
+DEBUG 2025-07-27 17:03:39,103 middleware Check IDLE_TIME: 9.676914s until idle ends.
+DEBUG 2025-07-27 17:03:39,155 middleware Check IDLE_TIME: 9.948152s until idle ends.
+DEBUG 2025-07-27 17:04:19,760 middleware Check IDLE_TIME: -30.605067s until idle ends.
+DEBUG 2025-07-27 17:04:19,760 middleware Logout user mohamed_baddi
+INFO 2025-07-27 17:13:35,910 autoreload Watching for file changes with StatReloader
+ERROR 2025-07-27 17:13:52,739 log Internal Server Error: /auth/login/
+Traceback (most recent call last):
+  File "C:\Users\moham\Downloads\api\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\moham\Downloads\api\.venv\Lib\site-packages\django_auto_logout\middleware.py", line 43, in middleware
+    if not request.user.is_anonymous and hasattr(settings, 'AUTO_LOGOUT'):
+           ^^^^^^^^^^^^
+AttributeError: 'WSGIRequest' object has no attribute 'user'
+ERROR 2025-07-27 18:22:48,002 log Internal Server Error: /auth/login/
+Traceback (most recent call last):
+  File "C:\Users\moham\Downloads\api\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\moham\Downloads\api\.venv\Lib\site-packages\django_auto_logout\middleware.py", line 43, in middleware
+    if not request.user.is_anonymous and hasattr(settings, 'AUTO_LOGOUT'):
+           ^^^^^^^^^^^^
+AttributeError: 'WSGIRequest' object has no attribute 'user'
+INFO 2025-07-27 18:25:05,652 autoreload C:\Users\moham\Downloads\api\api\settings.py changed, reloading.
+INFO 2025-07-27 18:25:06,506 autoreload Watching for file changes with StatReloader
+INFO 2025-07-27 18:25:35,936 autoreload C:\Users\moham\Downloads\api\myapi\views.py changed, reloading.
+INFO 2025-07-27 18:25:36,815 autoreload Watching for file changes with StatReloader
+INFO 2025-07-27 18:29:41,469 autoreload C:\Users\moham\Downloads\api\myapi\urls.py changed, reloading.
+INFO 2025-07-27 18:29:42,334 autoreload Watching for file changes with StatReloader
+INFO 2025-07-27 18:29:51,742 autoreload C:\Users\moham\Downloads\api\myapi\urls.py changed, reloading.
+INFO 2025-07-27 18:29:52,511 autoreload Watching for file changes with StatReloader
+INFO 2025-07-27 18:29:56,216 autoreload C:\Users\moham\Downloads\api\myapi\urls.py changed, reloading.
+INFO 2025-07-27 18:29:56,997 autoreload Watching for file changes with StatReloader
+INFO 2025-07-27 18:30:49,215 autoreload Watching for file changes with StatReloader
+WARNING 2025-07-27 18:31:01,042 log Forbidden: /auth/login/
+INFO 2025-07-27 18:31:25,520 autoreload Watching for file changes with StatReloader
+WARNING 2025-07-27 18:31:28,745 log Forbidden: /auth/login/
+INFO 2025-07-27 18:39:09,795 autoreload C:\Users\moham\Downloads\api\api\settings.py changed, reloading.
+INFO 2025-07-27 18:39:10,627 autoreload Watching for file changes with StatReloader
+INFO 2025-07-27 18:39:32,412 autoreload C:\Users\moham\Downloads\api\api\middleware.py changed, reloading.
+INFO 2025-07-27 18:39:33,274 autoreload Watching for file changes with StatReloader
+INFO 2025-07-27 18:40:05,839 autoreload C:\Users\moham\Downloads\api\authentification\views.py changed, reloading.
+INFO 2025-07-27 18:40:06,704 autoreload Watching for file changes with StatReloader
+INFO 2025-07-27 18:40:34,078 autoreload C:\Users\moham\Downloads\api\authentification\views.py changed, reloading.
+INFO 2025-07-27 18:40:34,931 autoreload Watching for file changes with StatReloader
+INFO 2025-07-27 18:40:46,083 autoreload C:\Users\moham\Downloads\api\authentification\views.py changed, reloading.
+INFO 2025-07-27 18:40:46,954 autoreload Watching for file changes with StatReloader
+INFO 2025-07-27 18:40:58,529 autoreload C:\Users\moham\Downloads\api\authentification\views.py changed, reloading.
+INFO 2025-07-27 18:40:59,368 autoreload Watching for file changes with StatReloader
+INFO 2025-07-27 18:41:06,037 autoreload C:\Users\moham\Downloads\api\authentification\views.py changed, reloading.
+INFO 2025-07-27 18:41:06,841 autoreload Watching for file changes with StatReloader
+INFO 2025-07-27 18:41:12,313 autoreload C:\Users\moham\Downloads\api\authentification\views.py changed, reloading.
+INFO 2025-07-27 18:41:13,108 autoreload Watching for file changes with StatReloader
+INFO 2025-07-27 18:41:15,322 autoreload C:\Users\moham\Downloads\api\authentification\views.py changed, reloading.
+INFO 2025-07-27 18:41:16,165 autoreload Watching for file changes with StatReloader
+INFO 2025-07-27 18:54:48,152 autoreload C:\Users\moham\Downloads\api\api\settings.py changed, reloading.
+INFO 2025-07-27 18:54:49,170 autoreload Watching for file changes with StatReloader
+INFO 2025-07-27 18:57:10,377 autoreload C:\Users\moham\Downloads\api\authentification\views.py changed, reloading.
+INFO 2025-07-27 18:57:11,187 autoreload Watching for file changes with StatReloader
+INFO 2025-07-27 18:57:17,852 autoreload C:\Users\moham\Downloads\api\authentification\views.py changed, reloading.
+INFO 2025-07-27 18:57:18,726 autoreload Watching for file changes with StatReloader
+INFO 2025-07-27 18:57:29,860 autoreload C:\Users\moham\Downloads\api\authentification\views.py changed, reloading.
+INFO 2025-07-27 18:57:30,639 autoreload Watching for file changes with StatReloader
+INFO 2025-07-27 18:57:37,277 autoreload C:\Users\moham\Downloads\api\authentification\views.py changed, reloading.
+INFO 2025-07-27 18:57:38,020 autoreload Watching for file changes with StatReloader
+INFO 2025-07-27 18:57:52,959 autoreload C:\Users\moham\Downloads\api\authentification\views.py changed, reloading.
+INFO 2025-07-27 18:57:53,767 autoreload Watching for file changes with StatReloader
+INFO 2025-07-27 18:58:35,646 autoreload C:\Users\moham\Downloads\api\authentification\urls.py changed, reloading.
+INFO 2025-07-27 18:58:36,442 autoreload Watching for file changes with StatReloader
+INFO 2025-07-27 19:00:02,077 autoreload Watching for file changes with StatReloader
+WARNING 2025-07-27 19:00:12,231 log Unauthorized: /auth/login/
+WARNING 2025-07-27 19:00:13,519 log Unauthorized: /auth/login/
+INFO 2025-07-27 19:00:40,720 autoreload Watching for file changes with StatReloader
+WARNING 2025-07-27 19:00:44,566 log Unauthorized: /auth/login/
+INFO 2025-07-27 19:01:10,836 autoreload C:\Users\moham\Downloads\api\myapi\views.py changed, reloading.
+INFO 2025-07-27 19:01:11,618 autoreload Watching for file changes with StatReloader
+INFO 2025-07-27 19:01:36,290 autoreload C:\Users\moham\Downloads\api\myapi\views.py changed, reloading.
+INFO 2025-07-27 19:01:37,098 autoreload Watching for file changes with StatReloader
+INFO 2025-07-27 19:01:53,371 autoreload C:\Users\moham\Downloads\api\myapi\views.py changed, reloading.
+INFO 2025-07-27 19:01:54,196 autoreload Watching for file changes with StatReloader
+WARNING 2025-07-27 19:02:21,640 log Unauthorized: /auth/login/
+INFO 2025-07-27 19:03:02,003 autoreload C:\Users\moham\Downloads\api\myapi\views.py changed, reloading.
+INFO 2025-07-27 19:03:02,824 autoreload Watching for file changes with StatReloader
+INFO 2025-07-27 19:03:07,712 autoreload C:\Users\moham\Downloads\api\myapi\views.py changed, reloading.
+INFO 2025-07-27 19:03:08,530 autoreload Watching for file changes with StatReloader
+INFO 2025-07-27 19:03:13,474 autoreload C:\Users\moham\Downloads\api\myapi\views.py changed, reloading.
+INFO 2025-07-27 19:03:14,263 autoreload Watching for file changes with StatReloader
+INFO 2025-07-27 19:03:16,877 autoreload C:\Users\moham\Downloads\api\myapi\views.py changed, reloading.
+INFO 2025-07-27 19:03:17,695 autoreload Watching for file changes with StatReloader
+INFO 2025-07-27 19:03:23,779 autoreload C:\Users\moham\Downloads\api\myapi\views.py changed, reloading.
+INFO 2025-07-27 19:03:24,572 autoreload Watching for file changes with StatReloader
+INFO 2025-07-27 19:03:27,227 autoreload C:\Users\moham\Downloads\api\myapi\views.py changed, reloading.
+INFO 2025-07-27 19:03:28,004 autoreload Watching for file changes with StatReloader
+INFO 2025-07-27 19:03:30,643 autoreload C:\Users\moham\Downloads\api\myapi\views.py changed, reloading.
+INFO 2025-07-27 19:03:31,416 autoreload Watching for file changes with StatReloader
+INFO 2025-07-27 19:03:36,351 autoreload C:\Users\moham\Downloads\api\myapi\views.py changed, reloading.
+INFO 2025-07-27 19:03:37,129 autoreload Watching for file changes with StatReloader
+WARNING 2025-07-27 19:03:40,181 log Unauthorized: /auth/login/
+INFO 2025-07-27 19:12:18,436 autoreload C:\Users\moham\Downloads\api\api\settings.py changed, reloading.
+INFO 2025-07-27 19:12:19,392 autoreload Watching for file changes with StatReloader
+INFO 2025-07-27 19:13:19,173 autoreload C:\Users\moham\Downloads\api\authentification\views.py changed, reloading.
+INFO 2025-07-27 19:13:20,032 autoreload Watching for file changes with StatReloader
+INFO 2025-07-27 19:13:30,740 autoreload C:\Users\moham\Downloads\api\authentification\views.py changed, reloading.
+INFO 2025-07-27 19:13:31,522 autoreload Watching for file changes with StatReloader
+INFO 2025-07-27 19:13:39,872 autoreload C:\Users\moham\Downloads\api\authentification\views.py changed, reloading.
+INFO 2025-07-27 19:13:40,648 autoreload Watching for file changes with StatReloader
+INFO 2025-07-27 19:13:42,708 autoreload C:\Users\moham\Downloads\api\authentification\views.py changed, reloading.
+INFO 2025-07-27 19:13:43,496 autoreload Watching for file changes with StatReloader
+INFO 2025-07-27 19:13:51,285 autoreload C:\Users\moham\Downloads\api\authentification\views.py changed, reloading.
+INFO 2025-07-27 19:13:52,108 autoreload Watching for file changes with StatReloader
+INFO 2025-07-27 19:14:12,847 autoreload C:\Users\moham\Downloads\api\authentification\urls.py changed, reloading.
+INFO 2025-07-27 19:14:13,628 autoreload Watching for file changes with StatReloader
+WARNING 2025-07-27 19:15:27,594 log Unauthorized: /auth/login/
+INFO 2025-07-27 19:20:00,573 autoreload C:\Users\moham\Downloads\api\authentification\views.py changed, reloading.
+INFO 2025-07-27 19:20:01,401 autoreload Watching for file changes with StatReloader
+WARNING 2025-07-27 19:20:04,637 log Unauthorized: /auth/login/
+WARNING 2025-07-27 19:31:05,585 log Unauthorized: /auth/login/
+WARNING 2025-07-27 19:31:13,335 log Unauthorized: /auth/login/
+WARNING 2025-07-27 19:31:41,234 log Unauthorized: /auth/login/
+WARNING 2025-07-27 19:31:42,290 log Unauthorized: /auth/login/
+WARNING 2025-07-27 19:31:43,115 log Unauthorized: /auth/login/
+WARNING 2025-07-27 19:31:43,712 log Unauthorized: /auth/login/
+WARNING 2025-07-27 19:31:44,244 log Unauthorized: /auth/login/
+WARNING 2025-07-27 19:31:44,781 log Unauthorized: /auth/login/
+WARNING 2025-07-27 19:31:45,339 log Unauthorized: /auth/login/
+WARNING 2025-07-27 19:31:45,840 log Unauthorized: /auth/login/
+WARNING 2025-07-27 19:31:46,338 log Unauthorized: /auth/login/
+WARNING 2025-07-27 19:31:46,876 log Unauthorized: /auth/login/
+WARNING 2025-07-27 19:31:47,511 log Unauthorized: /auth/login/
+WARNING 2025-07-27 19:31:48,154 log Unauthorized: /auth/login/
+WARNING 2025-07-27 19:31:48,871 log Unauthorized: /auth/login/
+WARNING 2025-07-27 19:31:49,490 log Unauthorized: /auth/login/
+WARNING 2025-07-27 19:31:50,098 log Unauthorized: /auth/login/
+WARNING 2025-07-27 19:31:50,693 log Unauthorized: /auth/login/
+WARNING 2025-07-27 19:31:51,263 log Unauthorized: /auth/login/
+WARNING 2025-07-27 19:31:51,916 log Unauthorized: /auth/login/
+WARNING 2025-07-27 19:31:52,502 log Unauthorized: /auth/login/
+WARNING 2025-07-27 19:31:53,177 log Unauthorized: /auth/login/
+WARNING 2025-07-27 19:31:54,247 log Unauthorized: /auth/login/
+WARNING 2025-07-27 19:31:55,133 log Unauthorized: /auth/login/
+WARNING 2025-07-27 19:31:55,851 log Unauthorized: /auth/login/
+WARNING 2025-07-27 19:31:56,601 log Unauthorized: /auth/login/
+WARNING 2025-07-27 19:31:57,276 log Unauthorized: /auth/login/
+WARNING 2025-07-27 19:31:57,936 log Unauthorized: /auth/login/
+WARNING 2025-07-27 19:31:58,644 log Unauthorized: /auth/login/
+WARNING 2025-07-27 19:31:59,374 log Unauthorized: /auth/login/
+WARNING 2025-07-27 19:32:00,039 log Unauthorized: /auth/login/
+WARNING 2025-07-27 19:32:00,732 log Unauthorized: /auth/login/
+WARNING 2025-07-27 19:32:01,404 log Unauthorized: /auth/login/
+WARNING 2025-07-27 19:32:02,136 log Unauthorized: /auth/login/
+WARNING 2025-07-27 19:32:02,883 log Unauthorized: /auth/login/
+WARNING 2025-07-27 19:32:04,883 log Unauthorized: /auth/login/
+WARNING 2025-07-27 19:32:05,854 log Unauthorized: /auth/login/
+WARNING 2025-07-27 19:32:06,634 log Unauthorized: /auth/login/
+WARNING 2025-07-27 19:32:07,381 log Unauthorized: /auth/login/
+WARNING 2025-07-27 19:32:08,012 log Unauthorized: /auth/login/
+WARNING 2025-07-27 19:32:08,627 log Unauthorized: /auth/login/
+WARNING 2025-07-27 19:32:09,271 log Unauthorized: /auth/login/
+WARNING 2025-07-27 19:32:09,949 log Unauthorized: /auth/login/
+WARNING 2025-07-27 19:32:44,254 log Unauthorized: /auth/login/
+INFO 2025-07-27 19:37:28,746 autoreload C:\Users\moham\Downloads\api\api\settings.py changed, reloading.
+DEBUG 2025-07-27 19:56:19,104 middleware Check IDLE_TIME: 60.0s until idle ends.
+DEBUG 2025-07-27 19:56:23,238 middleware Check IDLE_TIME: 55.866277s until idle ends.
+DEBUG 2025-07-27 19:56:23,532 middleware Check IDLE_TIME: 59.705674s until idle ends.
+DEBUG 2025-07-27 19:56:23,800 middleware Check IDLE_TIME: 59.732289s until idle ends.
+DEBUG 2025-07-27 19:56:24,055 middleware Check IDLE_TIME: 59.744315s until idle ends.
+DEBUG 2025-07-27 19:56:24,116 middleware Check IDLE_TIME: 59.939815s until idle ends.
+DEBUG 2025-07-27 19:56:24,377 middleware Check IDLE_TIME: 59.738321s until idle ends.
+DEBUG 2025-07-27 19:56:24,446 middleware Check IDLE_TIME: 59.930702s until idle ends.
+DEBUG 2025-07-27 19:56:53,846 middleware Check IDLE_TIME: 30.60019s until idle ends.
+DEBUG 2025-07-27 19:57:24,222 middleware Check IDLE_TIME: 29.624084s until idle ends.
+DEBUG 2025-07-27 19:57:53,958 middleware Check IDLE_TIME: 30.263716s until idle ends.
+DEBUG 2025-07-27 19:58:24,248 middleware Check IDLE_TIME: 29.710069s until idle ends.
+DEBUG 2025-07-27 19:58:54,329 middleware Check IDLE_TIME: 29.919712s until idle ends.
+DEBUG 2025-07-27 19:59:24,326 middleware Check IDLE_TIME: 30.003073s until idle ends.
+DEBUG 2025-07-27 19:59:54,574 middleware Check IDLE_TIME: 29.751929s until idle ends.
+DEBUG 2025-07-27 20:03:17,613 middleware Check IDLE_TIME: 20.0s until idle ends.
+DEBUG 2025-07-27 20:03:17,909 middleware Check IDLE_TIME: 19.704039s until idle ends.
+DEBUG 2025-07-27 20:03:18,287 middleware Check IDLE_TIME: 19.621193s until idle ends.
+DEBUG 2025-07-27 20:03:18,358 middleware Check IDLE_TIME: 19.929496s until idle ends.
+DEBUG 2025-07-27 20:03:18,589 middleware Check IDLE_TIME: 19.769387s until idle ends.
+DEBUG 2025-07-27 20:03:18,659 middleware Check IDLE_TIME: 19.929747s until idle ends.
+DEBUG 2025-07-27 20:03:18,829 middleware Check IDLE_TIME: 19.829882s until idle ends.
+DEBUG 2025-07-27 22:50:06,660 middleware Check IDLE_TIME: 60.0s until idle ends.
+DEBUG 2025-07-27 22:50:06,877 middleware Check IDLE_TIME: 59.782855s until idle ends.
+DEBUG 2025-07-27 22:50:06,938 middleware Check IDLE_TIME: 59.93932s until idle ends.
+DEBUG 2025-07-27 22:50:07,128 middleware Check IDLE_TIME: 59.810407s until idle ends.
+DEBUG 2025-07-27 22:50:07,188 middleware Check IDLE_TIME: 59.939337s until idle ends.
+DEBUG 2025-07-27 22:50:07,340 middleware Check IDLE_TIME: 59.848188s until idle ends.
+DEBUG 2025-07-27 22:50:36,845 middleware Check IDLE_TIME: 30.495089s until idle ends.
+DEBUG 2025-07-27 22:51:06,862 middleware Check IDLE_TIME: 29.983162s until idle ends.
+DEBUG 2025-07-27 22:51:36,856 middleware Check IDLE_TIME: 30.005684s until idle ends.
+DEBUG 2025-07-27 22:52:06,850 middleware Check IDLE_TIME: 30.006174s until idle ends.
+DEBUG 2025-07-27 22:52:36,852 middleware Check IDLE_TIME: 29.997809s until idle ends.
+DEBUG 2025-07-27 22:53:06,866 middleware Check IDLE_TIME: 29.986091s until idle ends.
+DEBUG 2025-07-27 22:53:36,850 middleware Check IDLE_TIME: 30.015751s until idle ends.
+DEBUG 2025-07-27 22:54:06,951 middleware Check IDLE_TIME: 29.89986s until idle ends.
+DEBUG 2025-07-27 22:54:36,848 middleware Check IDLE_TIME: 30.102366s until idle ends.
+DEBUG 2025-07-27 22:55:06,849 middleware Check IDLE_TIME: 29.999649s until idle ends.
+DEBUG 2025-07-27 22:55:25,750 middleware Check IDLE_TIME: 41.099033s until idle ends.
+DEBUG 2025-07-27 22:55:26,328 middleware Check IDLE_TIME: 59.421797s until idle ends.
+DEBUG 2025-07-27 22:55:26,491 middleware Check IDLE_TIME: 59.836918s until idle ends.
+DEBUG 2025-07-27 22:55:26,650 middleware Check IDLE_TIME: 59.840942s until idle ends.
+DEBUG 2025-07-27 22:55:26,701 middleware Check IDLE_TIME: 59.948431s until idle ends.
+DEBUG 2025-07-27 22:55:26,828 middleware Check IDLE_TIME: 59.8737s until idle ends.
+DEBUG 2025-07-27 22:55:26,878 middleware Check IDLE_TIME: 59.949978s until idle ends.
+DEBUG 2025-07-27 22:55:56,509 middleware Check IDLE_TIME: 30.369099s until idle ends.
+DEBUG 2025-07-27 22:56:26,488 middleware Check IDLE_TIME: 30.020954s until idle ends.
+DEBUG 2025-07-27 22:56:56,525 middleware Check IDLE_TIME: 29.962259s until idle ends.
+DEBUG 2025-07-27 22:57:26,963 middleware Check IDLE_TIME: 29.562267s until idle ends.
+DEBUG 2025-07-27 22:57:56,966 middleware Check IDLE_TIME: 29.997392s until idle ends.
+DEBUG 2025-07-27 22:58:26,992 middleware Check IDLE_TIME: 29.973907s until idle ends.
+DEBUG 2025-07-27 22:58:56,963 middleware Check IDLE_TIME: 30.029356s until idle ends.
+DEBUG 2025-07-28 09:24:16,460 middleware Check IDLE_TIME: 20.0s until idle ends.
+DEBUG 2025-07-28 09:24:16,522 middleware Check IDLE_TIME: 19.937908s until idle ends.
+DEBUG 2025-07-28 09:24:16,593 middleware Check IDLE_TIME: 19.928992s until idle ends.
+DEBUG 2025-07-28 09:24:16,659 middleware Check IDLE_TIME: 19.934065s until idle ends.
+DEBUG 2025-07-28 09:24:23,958 middleware Check IDLE_TIME: 20.0s until idle ends.
+DEBUG 2025-07-28 09:24:24,011 middleware Check IDLE_TIME: 19.949057s until idle ends.
+DEBUG 2025-07-28 09:24:24,058 middleware Check IDLE_TIME: 19.95087s until idle ends.
+DEBUG 2025-07-28 09:24:24,156 middleware Check IDLE_TIME: 19.901413s until idle ends.
+DEBUG 2025-07-28 09:24:24,206 middleware Check IDLE_TIME: 19.950518s until idle ends.
+DEBUG 2025-07-28 09:24:34,316 middleware Check IDLE_TIME: 20.0s until idle ends.
+DEBUG 2025-07-28 09:24:34,370 middleware Check IDLE_TIME: 19.945974s until idle ends.
+DEBUG 2025-07-28 09:24:34,416 middleware Check IDLE_TIME: 19.954505s until idle ends.
+DEBUG 2025-07-28 09:24:34,510 middleware Check IDLE_TIME: 19.905993s until idle ends.
+DEBUG 2025-07-28 09:24:34,562 middleware Check IDLE_TIME: 19.948238s until idle ends.
+DEBUG 2025-07-28 10:08:37,352 middleware Check IDLE_TIME: 60.0s until idle ends.
+DEBUG 2025-07-28 10:08:37,643 middleware Check IDLE_TIME: 59.708521s until idle ends.
+DEBUG 2025-07-28 10:08:37,720 middleware Check IDLE_TIME: 59.923782s until idle ends.
+DEBUG 2025-07-28 10:08:37,939 middleware Check IDLE_TIME: 59.780888s until idle ends.
+DEBUG 2025-07-28 10:08:38,002 middleware Check IDLE_TIME: 59.936967s until idle ends.
+DEBUG 2025-07-28 10:08:38,157 middleware Check IDLE_TIME: 59.84497s until idle ends.
+DEBUG 2025-07-28 10:09:07,665 middleware Check IDLE_TIME: 30.491843s until idle ends.
+DEBUG 2025-07-28 10:09:37,678 middleware Check IDLE_TIME: 29.987282s until idle ends.
+DEBUG 2025-07-28 10:10:07,599 middleware Check IDLE_TIME: 30.078862s until idle ends.
+DEBUG 2025-07-28 10:10:37,640 middleware Check IDLE_TIME: 29.959057s until idle ends.
+DEBUG 2025-07-28 10:10:45,203 middleware Check IDLE_TIME: 52.436337s until idle ends.
+DEBUG 2025-07-28 10:10:46,283 middleware Check IDLE_TIME: 58.919982s until idle ends.
+DEBUG 2025-07-28 10:10:46,658 middleware Check IDLE_TIME: 59.625153s until idle ends.
+DEBUG 2025-07-28 10:10:46,744 middleware Check IDLE_TIME: 59.914201s until idle ends.
+DEBUG 2025-07-28 10:10:46,821 middleware Check IDLE_TIME: 59.922711s until idle ends.
+DEBUG 2025-07-28 10:10:47,043 middleware Check IDLE_TIME: 59.778001s until idle ends.
+DEBUG 2025-07-28 10:10:47,103 middleware Check IDLE_TIME: 59.940139s until idle ends.
+DEBUG 2025-07-28 10:11:16,893 middleware Check IDLE_TIME: 30.210189s until idle ends.
+DEBUG 2025-07-28 10:11:37,143 middleware Check IDLE_TIME: 39.750088s until idle ends.
+DEBUG 2025-07-28 10:11:47,565 middleware Check IDLE_TIME: 49.578291s until idle ends.
+DEBUG 2025-07-28 10:12:16,600 middleware Check IDLE_TIME: 30.965163s until idle ends.
+DEBUG 2025-07-28 10:12:29,939 middleware Check IDLE_TIME: 46.660009s until idle ends.
+DEBUG 2025-07-28 10:12:33,601 middleware Check IDLE_TIME: 56.338109s until idle ends.
+DEBUG 2025-07-28 10:12:35,529 middleware Check IDLE_TIME: 58.071921s until idle ends.
+DEBUG 2025-07-28 10:12:35,868 middleware Check IDLE_TIME: 59.661933s until idle ends.
+DEBUG 2025-07-28 10:12:47,586 middleware Check IDLE_TIME: 48.281505s until idle ends.
+DEBUG 2025-07-28 10:13:06,921 middleware Check IDLE_TIME: 40.665071s until idle ends.
+DEBUG 2025-07-28 10:13:07,233 middleware Check IDLE_TIME: 59.687522s until idle ends.
+DEBUG 2025-07-28 10:13:09,860 middleware Check IDLE_TIME: 57.373373s until idle ends.
+DEBUG 2025-07-28 10:13:16,623 middleware Check IDLE_TIME: 53.237482s until idle ends.
+DEBUG 2025-07-28 10:13:20,905 middleware Check IDLE_TIME: 55.717543s until idle ends.
+DEBUG 2025-07-28 10:13:38,477 middleware Check IDLE_TIME: 42.427602s until idle ends.
+DEBUG 2025-07-28 10:13:38,822 middleware Check IDLE_TIME: 59.655602s until idle ends.
+DEBUG 2025-07-28 10:13:39,108 middleware Check IDLE_TIME: 59.714297s until idle ends.
+DEBUG 2025-07-28 10:13:39,437 middleware Check IDLE_TIME: 59.670086s until idle ends.
+DEBUG 2025-07-28 10:13:39,524 middleware Check IDLE_TIME: 59.913747s until idle ends.
+DEBUG 2025-07-28 10:13:39,759 middleware Check IDLE_TIME: 59.765002s until idle ends.
+DEBUG 2025-07-28 10:13:39,836 middleware Check IDLE_TIME: 59.922533s until idle ends.
+DEBUG 2025-07-28 10:14:09,128 middleware Check IDLE_TIME: 30.708243s until idle ends.
+DEBUG 2025-07-28 10:14:39,124 middleware Check IDLE_TIME: 30.003981s until idle ends.
+DEBUG 2025-07-28 10:15:09,455 middleware Check IDLE_TIME: 29.669294s until idle ends.
+DEBUG 2025-07-28 10:15:39,502 middleware Check IDLE_TIME: 29.952457s until idle ends.
+DEBUG 2025-07-28 10:16:09,582 middleware Check IDLE_TIME: 29.920568s until idle ends.
+DEBUG 2025-07-28 10:16:39,832 middleware Check IDLE_TIME: 29.74993s until idle ends.
+DEBUG 2025-07-28 10:22:19,644 middleware Check IDLE_TIME: 20.0s until idle ends.
+DEBUG 2025-07-28 10:22:19,988 middleware Check IDLE_TIME: 19.655321s until idle ends.
+DEBUG 2025-07-28 10:22:20,329 middleware Check IDLE_TIME: 19.659253s until idle ends.
+DEBUG 2025-07-28 10:22:20,415 middleware Check IDLE_TIME: 19.91458s until idle ends.
+DEBUG 2025-07-28 10:22:20,699 middleware Check IDLE_TIME: 19.71558s until idle ends.
+DEBUG 2025-07-28 10:22:20,788 middleware Check IDLE_TIME: 19.911412s until idle ends.
+DEBUG 2025-07-28 10:22:21,001 middleware Check IDLE_TIME: 19.786643s until idle ends.
+DEBUG 2025-07-28 10:23:18,622 middleware Check IDLE_TIME: 20.0s until idle ends.
+DEBUG 2025-07-28 10:23:18,941 middleware Check IDLE_TIME: 19.681231s until idle ends.
+DEBUG 2025-07-28 10:23:19,331 middleware Check IDLE_TIME: 19.610193s until idle ends.
+DEBUG 2025-07-28 10:23:19,418 middleware Check IDLE_TIME: 19.912573s until idle ends.
+DEBUG 2025-07-28 10:23:19,521 middleware Check IDLE_TIME: 19.897163s until idle ends.
+DEBUG 2025-07-28 10:23:19,788 middleware Check IDLE_TIME: 19.733212s until idle ends.
+DEBUG 2025-07-28 10:23:19,861 middleware Check IDLE_TIME: 19.926851s until idle ends.
+DEBUG 2025-07-28 10:26:03,625 middleware Check IDLE_TIME: 20.0s until idle ends.
+DEBUG 2025-07-28 10:26:03,955 middleware Check IDLE_TIME: 19.670562s until idle ends.
+DEBUG 2025-07-28 10:26:04,345 middleware Check IDLE_TIME: 19.610184s until idle ends.
+DEBUG 2025-07-28 10:26:04,426 middleware Check IDLE_TIME: 19.918422s until idle ends.
+DEBUG 2025-07-28 10:26:04,510 middleware Check IDLE_TIME: 19.916139s until idle ends.
+DEBUG 2025-07-28 10:26:04,796 middleware Check IDLE_TIME: 19.713703s until idle ends.
+DEBUG 2025-07-28 10:26:04,864 middleware Check IDLE_TIME: 19.932646s until idle ends.

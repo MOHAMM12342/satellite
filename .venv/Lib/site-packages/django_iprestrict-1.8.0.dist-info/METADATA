@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: django-iprestrict
+Version: 1.8.0
+Summary: Django app + middleware to restrict access to all or sections of a Django project by client IP ranges
+Home-page: https://github.com/muccg/django-iprestrict
+Download-URL: https://github.com/muccg/django-iprestrict/releases
+Author: Tamas Szabo, CCG, Murdoch University
+Author-email: devops@ccg.murdoch.edu.au
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development
+License-File: LICENSE
+Requires-Dist: Django (>=1.8)
+Provides-Extra: dev
+Requires-Dist: tox ; extra == 'dev'
+Requires-Dist: pep8 ; extra == 'dev'
+Requires-Dist: flake8 ; extra == 'dev'
+Requires-Dist: mock ; extra == 'dev'
+Requires-Dist: Sphinx ; extra == 'dev'
+Requires-Dist: django-extensions ; extra == 'dev'
+Requires-Dist: Werkzeug ; extra == 'dev'
+Provides-Extra: geoip
+Requires-Dist: pycountry (==17.5.14) ; extra == 'geoip'
+Requires-Dist: geoip2 (==2.5.0) ; extra == 'geoip'
+Requires-Dist: GeoIP (==1.3.2) ; extra == 'geoip'
+
+Django app + middleware to restrict access to all or sections of a Django project by client IP ranges

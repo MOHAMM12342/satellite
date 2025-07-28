@@ -1,0 +1,108 @@
+{% load static %}
+<!doctype html>
+<html>
+<head>
+    <title>IPRestrict - Test Rules</title>
+
+    <link rel="stylesheet" type="text/css" href="{% static 'css/test_rules.css' %}" />
+    <script src="{% static 'javascript/lib/jquery-min.js' %}"></script>
+    <script src="{% static 'javascript/lib/handlebars.min.js' %}"></script>
+</head>
+
+<body>
+<h2>Test Rules</h2>
+
+<p>Enter a URL and an IP address below, then click Test.</p>
+
+<table>
+    <tr>
+        <th>URL</th>
+        <th>IP Address</th>
+        <th></th>
+        <th></th>
+    <tr>
+
+    <tr>
+        <form>
+            <td>
+                <input id="url" type="text" name="url" />
+            </td>
+            <td>
+                <input id="ip" type="text" name="ip" size='10' />
+            </td>
+            <td>
+                <button>Test</button>
+            </td>
+        </form>
+    </tr>
+
+</table>
+
+<p id="result">
+    <span id='result'></span>
+</p>
+
+
+<h2>Current Rules</h2>
+<table id='rules'>
+    <thead>
+        <tr>
+            <th>URL pattern</th>
+            <th>IP Group</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+
+    <tbody id='rules-body'>
+        <tr>
+            <td colspan="4" align='center'>Rules will be loaded on first test</td>
+        </tr>
+    </tbody>
+
+</table>
+
+
+<script id="result-template" type="text/x-handlebars-template">
+{% verbatim %}
+  <span class='{{action}}'>{{ action }}</span> - {{ msg }}
+{% endverbatim %}
+</script>
+
+<script id="rules-template" type="text/x-handlebars-template">
+{% verbatim %}
+    {{#each this}}
+        {{#if this.matched }}
+            <tr class='ruleMatch'>
+        {{else}}
+            <tr>
+        {{/if}}
+                <td class='{{this.url_pattern.matchStatus}}'>{{this.url_pattern.value}}</td>
+                <td class='{{this.ip_group.matchStatus}}'>
+                    {{this.ip_group.name}}</br>
+                    {{this.ip_group.reverse_ip_group}} ({{this.ip_group.ranges}})
+                </td>
+                <td>{{this.action}}</td>
+            </tr>
+    {{/each}}
+{% endverbatim %}
+</script>
+
+<script>
+     $(document).ready(function(){
+       var resultTemplate = Handlebars.compile($('#result-template').html());
+       var rulesTemplate = Handlebars.compile($('#rules-template').html());
+
+       $("button").click(function(event){
+         event.preventDefault();
+
+         var data = $('form').serialize();
+         $.getJSON('test_match', data, function(data) {
+            $('#result').html(resultTemplate(data));
+            $('#rules-body').html(rulesTemplate(data.rules));
+         });
+       });
+     });
+</script>
+
+</body>
+</html>
