@@ -37,3 +37,5 @@ class TokenExpiryMiddleware:
                     return HttpResponseRedirect(settings.SESSION_TIMEOUT_REDIRECT)
         response = self.get_response(request)
         return response
+    
+

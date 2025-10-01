@@ -1,5 +1,6 @@
 from pathlib import Path
 import os
+from corsheaders.defaults import default_headers
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -13,7 +14,7 @@ SECRET_KEY = 'django-insecure-i5)qbh(d+++%#3#jraogzku=j)anscapctthxgofksjvpy3b$t
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost', '127.0.0.1']
+
 
 # Application definition
 INSTALLED_APPS = [
@@ -27,7 +28,6 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'corsheaders',
-    'authentification',
     'django_otp',
     'django_otp.plugins.otp_totp',
     'django_otp.plugins.otp_static',
@@ -41,6 +41,7 @@ MIDDLEWARE = [
     'django.middleware.common.CommonMiddleware',
     'iprestrict.middleware.IPRestrictMiddleware',
     'corsheaders.middleware.CorsMiddleware',
+    'django.middleware.common.CommonMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
@@ -50,20 +51,30 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'django_auto_logout.middleware.auto_logout',
     'api.middleware.NoCacheMiddleware',
+    
 ]
 
 # CORS Configuration
-CORS_ALLOWED_ORIGINS = [
-    "http://localhost:3000",
-    "http://127.0.0.1:3000",
-]
-CORS_ALLOW_CREDENTIALS = True
+
 CORS_ALLOW_ALL_ORIGINS = False
 
-# CSRF Configuration
+CORS_ALLOW_CREDENTIALS = True
+
+CORS_ALLOWED_ORIGINS = [
+    'http://localhost:3000',
+    'http://10.72.151.105:3000',  # Si ton client accède depuis une autre machine
+]
+
+CORS_ALLOW_HEADERS = list(default_headers) + [
+    'X-CSRFToken',
+]
+
+ALLOWED_HOSTS = ['10.72.151.105','localhost','127.0.0.1','*'] 
+
 CSRF_TRUSTED_ORIGINS = [
-    "http://localhost:3000",
-    "http://127.0.0.1:3000",
+    "http://10.72.151.105:3000",
+    "http://localhost:3000"
+
 ]
 
 # Security Settings
@@ -77,7 +88,7 @@ ROOT_URLCONF = 'api.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [BASE_DIR / "templates"], 
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -90,6 +101,7 @@ TEMPLATES = [
         },
     },
 ]
+
 
 WSGI_APPLICATION = 'api.wsgi.application'
 
@@ -159,7 +171,7 @@ REST_FRAMEWORK = {
 # Session Configuration
 SESSION_ENGINE = 'django.contrib.sessions.backends.db'
 SESSION_COOKIE_NAME = 'sessionid'
-SESSION_COOKIE_AGE = 20  # 1 minute for testing
+SESSION_COOKIE_AGE = 30
 SESSION_SAVE_EVERY_REQUEST = True  # Save session on every request
 SESSION_EXPIRE_AT_BROWSER_CLOSE = True
 SESSION_COOKIE_SECURE = False  # True in production with HTTPS
@@ -167,17 +179,21 @@ SESSION_COOKIE_HTTPONLY = True
 SESSION_COOKIE_SAMESITE = 'Lax'
 SESSION_TIMEOUT_REDIRECT = '/auth/login/'
 SESSION_EXPIRE_AFTER_LAST_ACTIVITY = True
-SESSION_EXPIRE_AFTER_LAST_ACTIVITY_GRACE_PERIOD = 60  # 2 seconds
+SESSION_EXPIRE_AFTER_LAST_ACTIVITY_GRACE_PERIOD = 20 
+
+LOGIN_URL = '/account/login/'
+ADMIN_LOGIN_URL = '/admin/'
 
 # Auto Logout Configuration
 AUTO_LOGOUT = {
-    'IDLE_TIME': 20 ,  # 1 minute for testing
+    'IDLE_TIME': 30,
     'REDIRECT_TO_LOGIN_IMMEDIATELY': True,
     'MESSAGE': 'Your session has expired due to inactivity.',
 }
 
 # Security Settings
 CSRF_COOKIE_SECURE = False
+CSRF_COOKIE_SAMESITE = "Lax"
 SECURE_SSL_REDIRECT = False
 SECURE_BROWSER_XSS_FILTER = True
 SECURE_CONTENT_TYPE_NOSNIFF = True
@@ -187,7 +203,6 @@ AUTHENTICATION_BACKENDS = [
     'django.contrib.auth.backends.ModelBackend',
 ]
 TWO_FACTOR_AUTH = {
-    'LOGIN_URL': '/account/login/',
     'TWO_FACTOR_LOGIN_REDIRECT_URL': '/account/two_factor/',
     'TWO_FACTOR_PROFILE_URL': '/account/two_factor/',
     'TWO_FACTOR_BACKUP_URL': '/account/two_factor/backup/tokens/',
@@ -199,9 +214,9 @@ TWO_FACTOR_PHONENUMBER_ENABLED = False
 IPRESTRICT_GEOIP_ENABLED = False
 
 IPRESTRICT_EXEMPT_PATHS = [
-    '/auth/login/',
-    '/account/two_factor/',
-    '/account/two_factor/backup/tokens/',
+    '/api/auth/login/',
+    '/api/account/two_factor/',
+    '/api/account/two_factor/backup/tokens/',
 ]
 
 # Logging
