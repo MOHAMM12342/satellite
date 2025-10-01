@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import { useAuth } from "../context/AuthContext";
 import api, { checkSessionStatus } from "../api/api";
 import TwoFactorSetup from '../components/TowFactorSetup';
+import img from "../images/logo.jpeg"
 
 const SatelliteDashboard = ({ adminMode = false, initialSearchResults = null, selectedResult = null }) => {
   const { auth, loading: authLoading } = useAuth();
@@ -396,6 +397,12 @@ const SatelliteDashboard = ({ adminMode = false, initialSearchResults = null, se
   }
 
   return (
+  <div style={{
+    backgroundImage: `url(${img})`,
+    backgroundSize: "cover",
+    backgroundPosition: "center",
+    minHeight: "100vh",}}>
+
     <div className="min-h-screen bg-gray-100 p-6">
       {!adminMode && (
         <div className="bg-space-blue text-white p-6 rounded-xl shadow-lg mb-6">
@@ -668,7 +675,9 @@ const SatelliteDashboard = ({ adminMode = false, initialSearchResults = null, se
         </div>
       )}
     </div>
+  </div>
   );
 };
+
 
 export default SatelliteDashboard;

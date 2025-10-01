@@ -8,7 +8,7 @@ const api = axios.create({
 });
 
 api.interceptors.request.use(config => {
-  // Add CSRF token for POST, PUT, PATCH requests
+  //  CSRF token for POST, PUT, PATCH requests
   const csrfToken = document.cookie.match(/csrftoken=([^;]+)/)?.[1];
   if (['post', 'put', 'patch'].includes(config.method) && csrfToken) {
     config.headers['X-CSRFToken'] = csrfToken;
@@ -30,17 +30,17 @@ api.interceptors.response.use(
 
 export const checkSessionStatus = () => {
   console.log('Sending session status check request'); // Debug log
-  return api.get('/auth/check-session-status/');
+  return api.get('/api/auth/check-session-status/');
 };
 
 // Auth endpoints
 export const fetchCsrfToken = async () => {
-  await api.get('/auth/login/'); // Triggers CSRF cookie set
+  await api.get('/api/auth/login/'); // Triggers CSRF cookie set
 };
-export const login = (credentials) => api.post('/auth/login/', credentials);
-export const verify2FA = (data) => api.post('/auth/verify/', data);
-export const setup2FA = () => api.get('/account/two_factor/setup/');
-export const confirm2FASetup = (token) => api.post('/account/two_factor/setup/', { token });
+export const login = (credentials) => api.post('/api/auth/login/', credentials);
+export const verify2FA = (data) => api.post('/api/auth/verify/', data);
+export const setup2FA = () => api.get('/api/account/two_factor/setup/');
+export const confirm2FASetup = (token) => api.post('/api/account/two_factor/setup/', { token });
 
 // API endpoints
 export const fetchSatellites = () => api.get('/api/satellites/');

@@ -7,6 +7,7 @@ import Dashboard from './pages/Dashboard';
 import AdminDashboard from './pages/AdminDashboard';
 import Navbar from './components/Navbar';
 import Verify2FA from './pages/Verify2FA';
+import img from "./images/logo.jpeg";
 
 function App() {
   return (

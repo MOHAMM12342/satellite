@@ -1,4 +1,3 @@
-// src/components/FileSearch.js
 import React, { useState, useEffect } from 'react';
 import { useAuth } from '../context/AuthContext';
 import api from '../api/api';
@@ -44,10 +43,6 @@ const FileSearch = ({ onSearchResults, onSelectResult }) => {
     setLoading(true);
     
     try {
-      // For now, we'll simulate a search response since the API endpoint might not exist yet
-      // This will be replaced with the actual API call when it's ready
-      
-      // Simulated search results
       const simulatedResults = [];
       
       if (searchParams.satellite_id || searchParams.subsystem_id || searchParams.file_id) {

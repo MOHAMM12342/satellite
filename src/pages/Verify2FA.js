@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
 import { verify2FA } from '../api/api';
+import img from "../images/logo.jpeg"
 
 const Verify2FA = () => {
   const [code, setCode] = useState('');
@@ -36,7 +37,13 @@ const Verify2FA = () => {
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100">
+    <div style={{
+    backgroundImage: `url(${img})`,
+    backgroundSize: "cover",
+    backgroundPosition: "center",
+    minHeight: "100vh",
+  }}
+  className="min-h-screen flex items-center justify-center">
       <div className="bg-white p-8 rounded-lg shadow-md w-full max-w-md">
         <h2 className="text-2xl font-bold text-center mb-6">Two-Factor Verification</h2>
         {error && <div className="mb-4 p-3 bg-red-100 text-red-700 rounded">{error}</div>}
